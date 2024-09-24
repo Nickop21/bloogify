@@ -3,26 +3,7 @@ import { ArrowRight, CheckIcon } from "lucide-react";
 import { Button } from "../ui/button";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-// import { plansMap } from "@/lib/constants";
-const plansMap=[{
-    name:"nitin",
-    price:"32",
-    description:"Hi", 
-    items:[], 
-    id:"@1",
-     paymentLink:"nf"
-
-},
-{
-    name:"nitin",
-    price:"32",
-    description:"Hi", 
-    items:[], 
-    id:"@12",
-     paymentLink:"nf"
-
-}
-]
+import { plansMap } from '@/lib/plans';
 
 function Pricing() {
     return (
